@@ -1,20 +1,55 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Maze Runner: O Labirinto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo Maze Runner</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Maze Runner: O Labirinto</h1>
-    <p id="texto">Você está diante da entrada do labirinto misterioso. Quer entrar e tentar encontrar a saída, ou desistir e fugir?</p>
-    <div id="botoes">
-      <button onclick="escolherCaminho(1)">Entrar no Labirinto</button>
-      <button onclick="escolherCaminho(2)">Fugir</button>
-    </div>
-  </div>
+  <header>
+    <h1>Maze Runner - Catálogo de Trailers</h1>
+  </header>
 
-  <script src="script.js"></script>
+  <main class="catalog">
+    <article class="card">
+      <h2>Trailer 1</h2>
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/uriiz3G8ALw" 
+          title="Trailer 1" 
+          frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </article>
+
+    <article class="card">
+      <h2>Trailer 2</h2>
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/NXv22vzg9rE" 
+          title="Trailer 2" 
+          frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </article>
+
+    <article class="card">
+      <h2>Trailer 3</h2>
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/zaBEBkLVCF0" 
+          title="Trailer 3" 
+          frameborder="0" allowfullscreen>
+        </iframe>
+      </div>
+    </article>
+    
+  </main>
+
+  <footer>
+    <p>Catálogo criado por Yasmin Vitória Pereira da Silva</p>
+  </footer>
 </body>
 </html>
